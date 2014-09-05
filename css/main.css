@@ -32,3 +32,9 @@
     color; green;
     text decoration; none;
   }
+
+  .main-header {
+    height:100px;
+    color:#fff;
+    background:lightgrey;
+  }
