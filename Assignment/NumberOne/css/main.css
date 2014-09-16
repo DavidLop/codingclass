@@ -2,6 +2,7 @@
 .container {
 	width: 750px;
 	margin: auto;
+	color: #4E2E2E;
 }
 
 .main-header {
@@ -12,13 +13,13 @@
 
 .main-content {
 	padding: 20px;
-	background: lightgrey;
+	background: #fff;
 }
 
 .main-footer {
 	height: 100px;
 	color: #fff;
-	background: #222;
+	background: #6F4141;
 }
 
 .base{
@@ -27,3 +28,23 @@
 	text-align: center;
 	font-size: 24px; 
 }
+
+ul {
+	list-style: none;
+	padding-right: 50;
+}
+
+.left-side {
+	float:left;
+	padding-right: 10px;
+}
+
+p {
+	padding-left: 150px;
+}
+
+h3 {
+	padding-left: 150px;
+}
+
+
