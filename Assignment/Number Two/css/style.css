@@ -1,0 +1,43 @@
+.box{
+  width: 200px;
+  height: 300px;
+  border: 2px solid #2EB8B8;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative; /*Notice you need this to hover the box */
+}
+
+.box .box-image {
+  width: 200px;
+}
+
+.box-image img {
+  width: 200px;
+}
+
+.box .box-text {
+  color:;
+  text-align: center;
+}
+
+.hover-box {
+  width: 100%;
+  overflow: hidden;
+  position: absolute; /* This is position absolute from the first relative container, which is .box*/
+  top: 100px;
+  color: #fff;
+  background-color: rgba(0, 102, 0, 0.75);
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+h2 {
+  float: right;
+  color: #2EB8B8;
+  padding-right: 1000px;
+}
